@@ -1,0 +1,286 @@
+{
+  "MES": {
+    "PublicProperties": {
+      "RCNumber": "2",
+      "InstallShieldVersion": "2020",
+      "UpdateAgent": "\\\\shinst-vbuild.rnd.aspentech.com\\Release\\UpdateAgent_OffCycleReleases\\aspenONE Update Agent.exe",
+      "UpdateAgentVersion": "2021.12.1.0",
+      "IDK": "2017.10.0.12",
+      "SLM": "2017.0.1.414",
+      "DevStaging_x86": "\\\\HQAZRNDFS01.CORP.ASPENTECH.COM\\download$\\Staging\\aspenONEV14.1\\MES",
+      "BuildStaging_x86": "\\\\shinst-vbuild\\Staging\\aspenONEV14.0\\AMS\\V14.0",
+      "DevStaging_x64": "\\\\HQAZRNDFS01.CORP.ASPENTECH.COM\\download$\\Staging\\aspenONEV14.1\\MES_x64\\MES",
+      "BuildStaging_x64": "\\\\shinst-vbuild\\Staging\\aspenONEV14.0\\AMS\\V14.0_x64\\MES"
+    },
+    "PrivateProperties": {
+      "Prj_x86_P4Path": "P:\\idk_installation\\v14.0\\Int\\AMS\\Seattle\\Projects\\x86\\",
+      "Prj_x64_P4Path": "P:\\idk_installation\\v14.0\\Int\\AMS\\Seattle\\Projects\\x64\\",
+      "CommonPreBuildPath": "R:\\aspenONEV14.0\\MSC\\pre_build\\",
+      "CommonReleasePath": "R:\\aspenONEV14.0\\MSC\\prj\\",
+      "CommonVbs": "P:\\idk_installation\\V14.0\\Int\\SHARED\\common.vbs",
+      "AllMSMs": "C:\\Program Files (x86)\\AspenTech\\IDK\\MergeModules,P:\\idk_installation\\v14.0\\Int\\MergeModules\\Common,P:\\idk_installation\\v14.0\\Int\\mergemodules\\Common\\Microsoft,P:\\idk_installation\\v14.0\\Int\\MergeModules\\Common\\3rdParty,P:\\idk_installation\\v14.0\\Int\\MergeModules\\Common\\AFW,P:\\idk_installation\\v14.0\\Int\\mergemodules\\Common\\CrystalReports11,P:\\idk_installation\\v14.0\\Int\\MergeModules\\AMS_MSMs_V14.2_AIOT\\x64,P:\\idk_installation\\v14.0\\Int\\MergeModules\\AMS_MSMs_V14.2_AIOT,P:\\idk_installation\\v14.0\\Int\\MergeModules\\AES_MSMs\\x64,P:\\idk_installation\\v14.0\\Int\\MergeModules\\Common\\SLM_MSMs_8.X,P:\\idk_installation\\v14.0\\Int\\MergeModules\\OM_MSMs,P:\\idk_installation\\v14.0\\Int\\MergeModules\\ACE_MSMs,P:\\idk_installation\\v14.0\\Int\\MergeModules\\AES_MSMs,P:\\idk_installation\\v14.0\\Int\\MergeModules\\OM_MSMs\\MMDM,P:\\idk_installation\\V14.0\\Int\\MergeModules\\Common\\AFW\\x64,P:\\idk_installation\\V14.0\\INT\\MergeModules\\OM_MSMs\\X64",
+      "MsmRelocationPath_AMS_x86": "P:\\idk_installation\\V14.0\\INT\\MergeModules\\AMS_MSMs_V14.2_AIOT",
+      "MsmRelocationPath_AMS_x64": "P:\\idk_installation\\V14.0\\INT\\MergeModules\\AMS_MSMs_V14.2_AIOT\\x64",
+      "BuildFlagPath": "\\\\shinst-vpatch\\PatchWorkingFolder\\AMS\\V14.0\\config\\BuildFlag\\",
+      "SignPath": "\\\\shinst-vpatch\\PatchSource\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch",
+      "SignLogFolder": "\\\\shinst-vpatch\\PatchWorkingFolder\\AMS\\V14.0\\config\\SignLogFolder",
+      "ZipFile": "\\\\shinst-vpatch\\PatchWorkingFolder\\AMS\\V14.0\\config\\Aspen AIoT MES V14.0 CP2",
+      "MailTemplate": "\\\\shinst-vpatch\\PatchWorkingFolder\\AMS\\V14.0\\config\\AIoT_Mail_Template.htm",
+      "MailTitle": "Aspen AIoT MES v14.0 CP2 MES Family Patch"
+    },
+    "msm_x86": {
+      "Name": [
+        "AspenOne_SearchService",
+        "ECIPInfoPlus21_AdapterWS_Feature",
+        "ECIPOpc_Adapter_Feature",
+        "EIS_Advisor_MSC",
+        "EIS_ADSA_Cli_IDK",
+        "EIS_ADSA_Cli_IDK",
+        "EIS_ADSA_Cli_IDK_AIoT",
+        "EIS_ADSA_Cli_IDK_IPM",
+        "EIS_ADSA_Cli_NET_IDK",
+        "EIS_ADV_PLANTDB_IDK",
+        "EIS_AspenOPCUAExplorer_IDK",
+        "EIS_ADV_EXPERT",
+        "EIS_APEx_IDK",
+        "EIS_Apex_NET_IDK",
+        "EIS_AdminBase_IDK",
+        "EIS_AuditAndComplianceManager_IDK",
+        "EIS_B21_IDK",
+        "EIS_B21_JNI_IDK",
+        "EIS_CALC_IDK",
+        "EIS_CimIO_Client_IDK",
+        "EIS_CimIO_Core",
+        "EIS_DefinitionEditor_IDK",
+        "EIS_EntModel_IDK",
+        "EIS_HIST_IP21_IDK",
+        "EIS_HIST_PI_IDK",
+        "EIS_HIST_ProcData_IDK",
+        "EIS_IP21Admin_IDK",
+        "EIS_IP21BASE_IDK",
+        "EIS_IP21COMMON_IDK",
+        "EIS_IP21KPI_IDK",
+        "EIS_LocaleHelp_IDK",
+        "EIS_MemoryQueue_IDK",
+        "EIS_nonBPE",
+        "EIS_OPC_IDK",
+        "EIS_OMS_Core",
+        "EIS_OMS_Import",
+        "EIS_SPC_IDK",
+        "EIS_SQLplus_IDK",
+        "EIS_SqlReport_IDK",
+        "EIS_UpgradeCreds_IDK",
+        "EIS_UpgradeAeBRS_IDK",
+        "EIS_WebControls_NET_IDK",
+        "EIS_WebTools_IDK",
+        "EIS_ProcessData_NET_IDK",
+        "EIS_Web21Controls_IDK",
+        "EIS_WEB21_IDK",
+        "EIS_DatabaseWizard_IDK",
+        "GUI_EIS_ADSA_Cli_IDK",
+        "GUI_AeBRS",
+        "EIS_MemoryQueue_NET_IDK",
+        "EIS_Excel_Addin_IP21Config_IDK",
+        "EIS_Excel_Addin_PD_IDK",
+        "EIS_Excel_Addin_Common",
+        "MscSettings",
+        "WDISAPI",
+        "NobleNet",
+        "MSM_A1Credential"
+      ]
+    },
+    "msm_x64": {
+      "Name": [
+        "AACM_Server_x64",
+        "AACM_Admin_x64",
+        "APRM_BCU_x64",
+        "AspenCalc_x64",
+        "IP21Admin_x64",
+        "APRM_Client_x64",
+        "ClusterAdmin_x64",
+        "ClusterAgent_x64",
+        "MES_ODBCDrivers_x64",
+        "MES_Core_Web_x64",
+        "MES_DatabaseWizard_x64",
+        "MSM_A1Credential_x64",
+        "MES_OPCUAEXPLORER_x64",
+        "Solr",
+        "AspenCoreSearch"
+      ]
+    },
+    "msm_special": {
+      "Name": [
+        "P:\\idk_installation\\v14.0\\Int\\AMS\\Seattle\\Projects\\x64\\;VisualizationNavigation_x64;P:\\idk_installation\\V14.0\\INT\\MergeModules\\OM_MSMs\\X64",
+        "P:\\idk_installation\\v14.0\\Int\\AMS\\Seattle\\Projects\\x64\\;MES_Core_IDK_x64;P:\\idk_installation\\V14.0\\INT\\MergeModules\\AMS_MSMs_V14.2_AIOT\\x64",
+        "P:\\idk_installation\\v14.0\\Int\\AMS\\Seattle\\Projects\\x86\\;EIS_KPI_IDK;P:\\idk_installation\\V14.0\\INT\\MergeModules\\AMS_MSMs_V14.2_AIOT",
+      ]
+    },
+    "prj_x86": {
+      "Name": [
+        "AuditAndComplianceManager",
+        "Calc",
+        "ADSA",
+        "IP21",
+        "ProcessData",
+        "APEx",
+        "SQLplus",
+        "CimIO",
+        "CimIO_Interfaces",
+        "Web21",
+        "Web21Graphics",
+        "AeBRS"
+      ]
+    },
+    "prj_x64": {
+      "Name": [
+        "APEM_x64",
+        "IP21Server_x64",
+        "AdminTools_x64",
+        "DesktopApps_x64",
+        "Interfaces_x64",
+        "WebServer_x64",
+        "APRMServer_x64"
+      ]
+    },
+    "PatchReleaseAndSignPath": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\",
+    "CommonPatchFolder": "L:\\AMS_SUITE_14.1_Patch\\",
+    "PatchProperties": {
+      "WebServer_x64": {
+        "Msi": "aspenONE Process Explorer V14 (64bit).msi",
+        "PatchConfig": "aspenONEProcessExplorer64bit_V14_CP2",
+        "CurrentAdmin": "A1PEx64\\A1PEx64_V14_CP2_AdminImage",
+        "pfw": "A1PEx64\\pfw\\A1PEx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\aspenONEProcessExplorer64bit_V14_CP2.exe"
+      },
+      "IP21Server_x64": {
+        "Msi": "Aspen InfoPlus.21 Server V14 (64bit).msi",
+        "PatchConfig": "AspenInfoPlus.21Server64bit_V14_CP2",
+        "CurrentAdmin": "IP21x64\\IP21x64_V14_CP2_AdminImage",
+        "pfw": "IP21x64\\pfw\\IP21x64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenInfoPlus.21Server(64bit)_V14_CP2.exe"
+      },
+      "ProcessData": {
+        "Msi": "Aspen Process Data V14.msi",
+        "PatchConfig": "AspenProcessData_V14_CP2",
+        "CurrentAdmin": "ProcessData\\ProcessData_V14_CP2_AdminImage",
+        "pfw": "ProcessData\\pfw\\ProcessData.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\ProcessData_V14_CP2.exe"
+      },
+      "IP21": {
+        "Msi": "Aspen InfoPlus.21 V14.msi",
+        "PatchConfig": "AspenInfoPlus.21_V14_CP2",
+        "CurrentAdmin": "IP21x86\\IP21x86_V14_CP2_AdminImage",
+        "pfw": "IP21x86\\pfw\\IP21x86.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenInfoPlus.21Server_V14_CP2.exe"
+      },
+      "APEx": {
+        "Msi": "Aspen Process Explorer V14.msi",
+        "PatchConfig": "AspenProcessExplorer_V14_CP2",
+        "CurrentAdmin": "APEx\\APEX_V14_CP2_AdminImage",
+        "pfw": "APEx\\pfw\\APEx.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenProcessExplorer_V14_CP2.exe"
+      },
+      "Calc": {
+        "Msi": "Aspen Calc V14.msi",
+        "PatchConfig": "AspenCalc_V14_CP2",
+        "CurrentAdmin": "Calc\\Calc_V14_CP2_AdminImage",
+        "pfw": "Calc\\pfw\\Calc.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenCalc_V14_CP2.exe"
+      },
+      "CimIO": {
+        "Msi": "Aspen CIM-IO V14.msi",
+        "PatchConfig": "AspenCIM-IO_V14_CP2",
+        "CurrentAdmin": "CIMIO\\CIMIO_V14_CP2_AdminImage",
+        "pfw": "CIMIO\\pfw\\CIM-IO.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenCIM-IO_V14_CP2.exe"
+      },
+      "CimIO_Interfaces": {
+        "Msi": "Aspen Cim-IO Interfaces V14.msi",
+        "PatchConfig": "AspenCim-IOInterfaces_V14_CP2",
+        "CurrentAdmin": "CIMIO_Interfaces\\CIMIO_Interfaces_V14_CP2_AdminImage",
+        "pfw": "CIMIO_Interfaces\\pfw\\Aspen Cim-IO_Interfaces.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenCim-IOInterfaces_V14_CP2.exe"
+      },
+      "Web21Graphics": {
+        "Msi": "Aspen Process Graphic Studio V14.msi",
+        "PatchConfig": "AspenProcessGraphicStudio_V14_CP2",
+        "CurrentAdmin": "Web21Graphics\\Web21Graphics_V14_CP2_AdminImage",
+        "pfw": "Web21Graphics\\pfw\\Aspen Web21Graphics.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenProcessGraphicStudio_V14_CP2.exe"
+      },
+      "APRMServer_x64": {
+        "Msi": "Aspen Production Record Manager Server V14 (64bit).msi",
+        "PatchConfig": "AspenProductionRecordManagerServer64bit_V14_CP2",
+        "CurrentAdmin": "APRMx64\\APRMx64_V14_CP2_AdminImage",
+        "pfw": "APRMx64\\pfw\\APRMx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenProductionRecordManager64bit_V14_CP2.exe"
+      },
+      "Web21": {
+        "Msi": "Aspen IP.21 Process Browser V14.msi",
+        "PatchConfig": "AspenIP.21ProcessBrowser_V14_CP2",
+        "CurrentAdmin": "Web21\\Web21_v14_CP2_AdminImage",
+        "pfw": "Web21\\pfw\\Web21.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenIP.21ProcessBrowser_V14_CP2.exe"
+      },
+      "AuditAndComplianceManager": {
+        "Msi": "Aspen Audit and Compliance Manager V14.msi",
+        "PatchConfig": "AspenAuditandComplianceManager_V14_CP2",
+        "CurrentAdmin": "AACM\\AACM_V14_CP2_AdminImage",
+        "pfw": "AACM\\pfw\\AACM.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenAuditAndComplianceManager_V14_CP2.exe"
+      },
+      "ADSA": {
+        "Msi": "Aspen Data Source Architecture V14.msi",
+        "PatchConfig": "AspenDataSourceArchitecture_V14_CP2",
+        "CurrentAdmin": "ADSA\\ADSA_V14_CP2_AdminImage",
+        "pfw": "ADSA\\pfw\\ADSA.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenDataSourceArchitecture_V14_CP2.exe"
+      },
+      "SQLplus": {
+        "Msi": "Aspen SQLplus V14.msi",
+        "PatchConfig": "AspenSQLplus_V14_CP2",
+        "CurrentAdmin": "SQLplus\\SQLplus_V14_CP2_AdminImage",
+        "pfw": "SQLplus\\pfw\\SQLplus.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenSQLplus_V14_CP2.exe"
+      },
+      "Interfaces_x64": {
+        "Msi": "Aspen Interfaces V14 (64bit).msi",
+        "PatchConfig": "AspenInterfaces64bit_V14_CP2",
+        "CurrentAdmin": "Interfacesx64\\Interfacesx64_V14_CP2_AdminImage",
+        "pfw": "Interfacesx64\\pfw\\Interfacesx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenInterfaces64bit_V14_CP2.exe"
+      },
+      "AdminTools_x64": {
+        "Msi": "Aspen Administration Tools V14 (64bit).msi",
+        "PatchConfig": "AspenAdministrationTools64bit_V14_CP2",
+        "CurrentAdmin": "AdminToolsx64\\AdminToolsx64_V14_CP2_AdminImage",
+        "pfw": "AdminToolsx64\\pfw\\AdminToolsx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenAdministrationTools64bit_V14_CP2.exe"
+      },
+      "DesktopApps_x64": {
+        "Msi": "Aspen Desktop Apps V14 (64bit).msi",
+        "PatchConfig": "AspenDesktopApps64bit_V14_CP2",
+        "CurrentAdmin": "DesktopAppsx64\\DesktopAppsx64_V14_CP2_AdminImage",
+        "pfw": "DesktopAppsx64\\pfw\\DesktopAppsx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\Aspen_MES_v14.2_Patch\\AspenDesktopApps64bit_V14_CP2.exe"
+      },
+      "AeBRS": {
+        "Msi": "Aspen Production Execution Manager V14.msi",
+        "PatchConfig": "AspenProductionExecutionManager_V14_CP1",
+        "CurrentAdmin": "APEMx32\\APEMx32_V14_CP1_AdminImage",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\IPMPatch\\AspenProductionExecutionManager_V14_CP1.exe",
+        "vbs": "APEMx32\\Patches\\InstallPatch.vbs",
+        "pfw": "APEMx32\\pfw\\APEMx32.pfw",
+        "PatchReleaseAndSignPath": "L:\\AMS_SUITE_14.1_Patch\\Release\\IPMPatch\\"
+      },
+      "APEM_x64": {
+        "Msi": "Aspen Production Execution Manager V14 (64bit).msi",
+        "PatchConfig": "AspenProductionExecutionManager64bit_V14_CP1",
+        "CurrentAdmin": "APEMx64\\APEMx64_V14_CP1_AdminImage",
+        "pfw": "APEMx64\\pfw\\APEMx64.pfw",
+        "exe": "L:\\AMS_SUITE_14.1_Patch\\Release\\IPMPatch\\AspenProductionExecutionManager64bit_V14_CP1.exe",
+        "PatchReleaseAndSignPath": "L:\\AMS_SUITE_14.1_Patch\\Release\\IPMPatch\\"
+      }
+    }
+  }
+}
